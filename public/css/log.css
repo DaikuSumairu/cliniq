@@ -1,0 +1,135 @@
+/* Foreign fonts (Landing and Log-in) */
+@font-face {
+    font-family: LML;
+    src: url(../fonts/LEMONMILK-Light.otf);
+}
+
+/* Main (Landing and Log-in) */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: LML;
+}
+html, body{
+	height: 100%;
+}
+
+/* Rightside background (Landing and Log-in) */
+.rightside_BG{
+	background-color: white;
+	opacity: 0.5;
+	width: 436px;
+}
+
+/* Background (Landing and Log-in) */
+.bg_img{
+    height: 100%;
+    background-image: url(../assets/APC_Building_BG.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* Blur effects of image */
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+}
+
+
+
+/* Container Position (Landing and Log-in) */
+.container{
+    display: flex;
+	height: 500px;
+	width: 1100px;
+    position: absolute;
+    top: 19%;
+    left: 18%;
+}
+
+/* Leftside container (Landing and Log-in) */
+.leftside{
+    display: flex;
+    position:relative;
+	top: 0;
+	left: 0;
+}
+.APC{
+	position: absolute;
+	width: 100px;
+    margin: 15px 0 0 10px;
+}
+.cLogo{
+	position: absolute;
+	margin-top:180px;
+	margin-left:80px;
+}
+
+/* Rightside (Landing) */
+.rightside_landing{
+	position: absolute;
+	left: 664px;
+	padding: 10px 30px;
+}
+.nav_links{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	text-align: center;
+	margin-top: 145px;	
+}
+.nav_links a{
+	text-decoration: none;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: #2e3192;
+	color: white;
+	font-weight: bold;
+	border: none;
+	outline: none;
+	margin-top: 15px;
+	margin-bottom: 20px
+}
+.btn{
+	width: 200px;
+	margin-left: 75px;
+	font-size: 20px;
+}
+
+/* Rightside (Log-in) */
+.rightside_logSS{
+	position: absolute;
+	left: 664px;
+	padding: 10px 30px;
+}
+.login_form{
+	margin-top: 65px;
+}
+.login_form p{
+	margin: 10px 0 10px 0;
+	font-size: 18px;
+}
+.text_area{
+	padding: 10px;
+	width: 90%;
+	background-color: #c9c672;
+	outline: none;
+	margin: 5px 0 5px 0;
+	font-size: 18px;
+	font-family: Arial;
+}
+#submit_btn{
+	padding: 8px;
+	width: 85px;
+	border-radius: 10px;
+	margin-top: 35px;
+	margin-left: 120px;
+	background-color: #2e3192;
+	color: white;
+	font-weight: bold;
+	border: none;
+	outline: none;
+	font-size: 15px;
+}
+#submit_btn:hover{
+	cursor: pointer;
+	background: yellow;
+}
