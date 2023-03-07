@@ -61,6 +61,3 @@ Route::middleware(['auth', 'user-access:clinic'])->group(function () {
     Route::get('/clinic/record', [SideNavController::class, 'record'])->name('record');
     Route::get('/clinic/storage', [SideNavController::class, 'storage'])->name('storage');
 });
-
-Route::get('calendar-event', [CalendarController::class, 'index']);
-Route::post('calendar-crud-ajax', [CalendarController::class, 'calendarEvents']);

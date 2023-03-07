@@ -138,6 +138,6 @@ input[type=checkbox]:checked ~ .dropdown-content{
 /* Content */
 .content_show{
 	position: inherit;
-	margin: 10px 4% 0 11%;
+	margin: 10px 4% 0 18%;
 	width: 75%;
 }
